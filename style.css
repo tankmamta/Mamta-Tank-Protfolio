@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  background-color: black;
+  padding: 10px;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.navBar {
+  display: flex;
+  padding: 80px;
+  background-image: url(../Mamta-Tank-Protfolio/02-hero-bg.jpg);
+  color: aliceblue;
+}
+
+.navBar {
+  height: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: ;
+}
+
+.info {
+  color: black;
+  font-size: 40px;
+}
+
+.right {
+  width: 50%;
+}
+
+.sidebarcontainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: cadetblue;
+}
+
+.projects {
+  background-color: darkcyan;
+  padding: 200px;
+  height: 100px;
+  width: 240px;
+  margin-top: 20px;
+  color: azure;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 200px;
+  width: 2000px;
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contactMe {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
